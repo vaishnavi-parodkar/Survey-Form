@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>survey form</title>
+  <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+<h1 id="title">Survey Form</h1>
+<p id="description">Survey form for the new changes made in library and cafeteria for the students and staff members</p>
+<form id="survey-form">
+    <input id="cafeteria-survey" type="checkbox" value="cafeteria-survey" name="cafeteria-survey"/>cafeteria survey
+    <select id="dropdown">
+      <option>Veg</option>
+    <option> Non-Veg</option>
+    <option>Both</option>
+    <input id="library-survey" type="checkbox" value="library-survey" name="library-survey"/>library survey
+    </select>
+    <fieldset>
+    <legend>Account type</legend>
+    <label for="student-account"><input id="student-account" type="radio" value="student" name="account-type" class="inline" checked /> student </label>
+    <label for="staff-account"><input id="staff-account" type="radio" value="staff" name="account-type" class="inline" /> staff </label>
+    </fieldset>
+  <fieldset>
+  <label id="name-label">Enter your Name: <input placeholder="Name" id="name" name="name" type="text" required/></label>
+  <label id="email-label"> Enter your Email: <input placeholder="Email" id="email" name="email" type="email" required/></label>
+  <label id="number-label">Phone Number: <input placeholder="number" id="number" name="number" min="0" max="100"   type="number"/></label>
+
+</fieldset>
+<fieldset>
+  <label for="photo">Upload your photo: <input id="photo" type="file" name="file" /></label>
+  <label for="age">Input your age:<input id="age"  type="number" name="age" /></label>
+  <fieldset>
+  <label id="Rating"> Give your Rating/ feedback:
+    <select id="Rating" name="Rating">
+      <option value="1"> very dissatisfied </option>
+      <option value="2"> dissatisfied </option>
+      <option value="3"> neutral </option>
+      <option value="4"> satisfied </option>
+      <option value="5"> very satisfied </option>
+    </select>
+    </label>
+<label for="comments">comment section:
+  <textarea id="comments" name="comments" rows="8" cols="20">
+</textarea>
+</label>
+</fieldset>
+<label><input id="form-checked" type="checkbox" value="checked" name="checkbox1"/>I have checked the survey form before submitting</label>
+<label><input id="send-email" type="checkbox" value="send-email" name="checkbox2"/>Send me an email of the survey form copy</label>
+<button type="submit" id="submit">Submit</button>
+</form>
+</body>
+</html>

@@ -1,0 +1,60 @@
+body {
+    background-color:#B1D4E0;
+    background-size:cover;
+    width: 100%;
+    height: 100vh;
+    margin: 20;
+    color:#1f2f53;
+    font-family: Arial;
+    font-size: 18px;
+    }
+    h1, p{
+      margin:1em;
+      text-align:center;
+      text-decoration: underline;
+      }
+    h1{
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      text-decoration: solid,underline;
+    }
+      form {
+      height:cover;
+      width:100%;
+      margin: -20 auto;
+      padding-bottom: 2em;
+    }
+    fieldset {
+      border: solid;
+      padding: 2rem 0;
+      border-bottom: 3px solid #3b3b4f;
+    }
+    label {
+      display: block;
+      margin: 0.5rem 0;
+    }
+    .inline {
+      width: unset;
+      vertical-align: middle;
+    }
+    input[type="submit"] {
+      display: block;
+      width: 100%;
+      margin: 5em auto;
+      height: 10em;
+      font-size: 1rem;
+      min-width: 400px;
+    }
+    
+    input[type="file"] {
+      padding: 1px 2px;
+      width:100%;
+    }
+    name{
+      width:100%;
+    }
+    submit{
+      height:5px;
+      width:10px;
+      text-align:center;
+    }
+    
